@@ -30,6 +30,22 @@ footer {
   margin-top: 5px;
 }
 
+@keyframes icons-둥-둥 {
+  0% {
+    transfrom: translatey(0px);
+  }
+  50% {
+    transfrom: translatey(10px);
+  }
+  100% {
+    transfrom: translatey(0px);
+  }
+}
+
 .footer-icons__img {
   width: 30px;
+}
+
+.footer-icons:hover .footer-icons__img {
+  animation: 2s icons-둥-둥;
 }
