@@ -18,7 +18,7 @@
 
   let isLoading = true;
 
-  const auth = getAuth;
+  const auth = getAuth();
 
   const checkLogin = async () => {
     const token = localStorage.getItem("token");
